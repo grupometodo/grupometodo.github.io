@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link id="style" rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/nomalize.css">
+  <link rel="stylesheet" href="css/grafic.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <title>Página de Investigación</title>
+  <style>
+    .canvas_chart {
+      background-color: #fff;
+      margin: 0 auto 40px;
+      width: 70%;
+      height: 400px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="progress-bar-container">
+    <div id="progress-bar">
+      <div class="progress-circle" style="top: 10%;"></div>
+      <div class="progress-circle" style="top: 25%;"></div>
+      <div class="progress-circle" style="top: 40%;"></div>
+      <div class="progress-circle" style="top: 55%;"></div>
+      <div class="progress-circle" style="top: 70%;"></div>
+      <div class="progress-circle" style="top: 85%;"></div>
+    </div>
+
+  </div>
+
+  <header id="header" class="head__1">
+    <h3 class="title_h3">DarkMode</h3>
+    <div class="dark-mode-switch">
+      <input type="checkbox" id="darkModeToggle">
+      <label for="darkModeToggle"></label>
+    </div>
+    <div class="uni">
+      <img src="assets/img/regional.png" alt="">
+    </div>
+    <h1 class="head__1-h1">Método de Investigación TOA</h1>
+    <nav class="nav_display">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#metodo">El Método</a></li>
+        <li><a href="#descripcion">Descripción Diseño</a></li>
+        <li><a href="#resultados">Resultados</a></li>
+        <li><a href="#conclusion">Conclusiones</a></li>
+      </ul>
+    </nav>
+
+    <!-- Menu desplegable -->
+    <div class="menu_desplegable" id="botonMenuDesplegable">
+      <div class="desplegable_linea"></div>
+      <div class="desplegable_linea"></div>
+      <div class="desplegable_linea"></div>
+    </div>
+    <nav class="desplegable_nav" id="menu_desplegable-nav">
+      <div class="menu_desplegable desplegable_nav-close" id="botonMenuDesplegable-close">
+        <div class="desplegable_linea-close" style="color: #fff">Cerrar</div>
+      </div>
+      <ul class="desplegable_nav-list">
+        <li class="desplegable-item" id="itemDesplegable1"><a href="index.html">Inicio</a></li>
+        <li class="desplegable-item" id="itemDesplegable2"><a href="#metodo">El Método</a></li>
+        <li class="desplegable-item" id="itemDesplegable3"><a href="#descripcion">Descripción Diseño</a></li>
+        <li class="desplegable-item" id="itemDesplegable4"><a href="#resultados">Resultados</a></li>
+        <li class="desplegable-item" id="itemDesplegable5"><a href="#conclusion">Conclusiones</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <section id="metodo" class="metodo">
+      <h2 class="title_h2">El Método</h2>
+      <p>El método TOA es una combinación de técnicas de organización y autodisciplina que tiene como objetivo principal
+        ayudar a los estudiantes a optimizar su tiempo de estudio, mejorar su rendimiento académico y promover su
+        bienestar integral. Al implementar este enfoque, los estudiantes pueden desarrollar habilidades de estudio
+        efectivas que los acompañarán a lo largo de su vida académica y más allá.</p>
+
+      <p>
+        <span class="toa">TOA</span> <em>(Técnicas de Organización y Autodisciplina)</em> es un método de estudio
+        diseñado para ayudar a los estudiantes a
+        mejorar su organización, autodisciplina y rendimiento académico. Este enfoque se basa en la implementación de
+        estrategias efectivas que permiten optimizar el tiempo de estudio y maximizar los resultados obtenidos.
+      </p>
+
+      <p>El objetivo principal de TOA es brindar a los estudiantes las herramientas necesarias para planificar,
+        administrar y ejecutar sus actividades de estudio de manera eficiente y efectiva. A través de la aplicación de
+        este método, los estudiantes pueden:</p>
+
+      <dl>
+        <dt>1. Organizar su tiempo</dt>
+        <dd>TOA proporciona un marco estructurado para gestionar el tiempo de estudio de manera adecuada. Ayuda a los
+          estudiantes a establecer prioridades, planificar sus actividades diarias y asignar tiempo específico para cada
+          asignatura, tarea o revisión.</dd>
+        <br>
+        <dt>2. Fomentar la autodisciplina</dt>
+        <dd>El método TOA fomenta la autodisciplina y la responsabilidad personal. Los estudiantes aprenden a mantenerse
+          enfocados en sus metas de estudio, a evitar distracciones y a seguir el plan establecido.</dd>
+        <br>
+        <dt>3. Mejorar la productividad</dt>
+        <dd>Al utilizar técnicas como la técnica Pomodoro y la eliminación de distracciones, TOA ayuda a los estudiantes
+          a aumentar su productividad durante las sesiones de estudio. Se fomenta el trabajo enfocado y eficiente, lo
+          que permite maximizar el tiempo utilizado.</dd>
+        <br>
+        <dt>4. Facilitar la retención y comprensión</dt>
+        <dd>TOA incluye técnicas de toma de notas efectivas y programación regular de sesiones de revisión y repaso.
+          Estas prácticas permiten reforzar el material estudiado, mejorar la retención y comprensión a largo plazo.
+        </dd>
+        <br>
+        <dt>5. Promover el bienestar integral</dt>
+        <dd>TOA reconoce la importancia del bienestar físico y mental para un rendimiento académico óptimo. Se alienta a
+          los estudiantes a cuidar su salud, descansar adecuadamente, mantener una alimentación equilibrada y dedicar
+          tiempo a actividades de relajación y recreación.</dd>
+      </dl>
+
+      <!-- Carrucel -->
+
+      <div class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div class="modify-2">
+              <img src="assets/img/orga-tiempo.jpg" alt="Imagen 1">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="modify-2">
+              <img src="assets/img/autodiciplina.jpeg" alt="Imagen 2">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="modify-2">
+              <img src="assets/img/product.webp" alt="Imagen 3">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="modify-2">
+              <img src="assets/img/bienestar.png" alt="Imagen 4">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control prev-button"><img src="assets/icons/left.png" alt=""></button>
+        <button class="carousel-control next-button"><img src="assets/icons/right.png" alt=""></button>
+      </div>
+    </section>
+
+
+    <section id="descripcion" class="descripcion">
+      <h2 class="title_h2">¿Como está diseñado el método?</h2>
+      <p>El método esta diseñado por una serie de 10 tecnicas de estudio tanto como de organización y autodisciplina los
+        cuales son:</p>
+
+      <dl>
+        <dt>1. Establecer metas claras</dt>
+        <dd>Define metas de estudio específicas y alcanzables. Estas metas pueden ser a corto plazo (por ejemplo,
+          terminar un capítulo de lectura) o a largo plazo (por ejemplo, obtener una calificación determinada en un
+          examen).</dd>
+        <br>
+        <dt>2. Planificación y agenda</dt>
+        <dd>Crea una agenda o un calendario donde puedas organizar tus actividades diarias, incluyendo el tiempo
+          dedicado al estudio. Asigna bloques de tiempo específicos para diferentes asignaturas, tareas y revisiones.
+        </dd>
+        <br>
+        <dt>3. Priorización</dt>
+        <dd>Identifica las tareas y asignaturas más importantes y dales prioridad en tu planificación. Enfócate en los
+          temas que requieren más atención o los plazos más cercanos.</dd>
+        <br>
+        <dt>4. Técnica Pomodoro</dt>
+        <dd>Utiliza la técnica Pomodoro para estructurar tu tiempo de estudio. Consiste en trabajar en bloques de tiempo
+          de 25 minutos, seguidos de un descanso de 5 minutos. Después de completar cuatro pomodoros, toma un descanso
+          más largo de 15-30 minutos.</dd>
+        <br>
+        <dt>5. Elimina distracciones</dt>
+        <dd>Minimiza las distracciones durante tus períodos de estudio. Apaga el teléfono celular, cierra las redes
+          sociales y busca un lugar tranquilo donde puedas concentrarte.</dd>
+        <br>
+        <dt>6. Toma descansos regulares</dt>
+        <dd>Programa descansos cortos pero regulares durante tus sesiones de estudio para mantener tu energía y
+          concentración. Utiliza estos descansos para estirarte, tomar agua o hacer alguna actividad que te ayude a
+          relajarte.</dd>
+        <br>
+        <dt>7. Toma notas efectivas</dt>
+        <dd>Desarrolla un sistema de toma de notas que funcione para ti. Puedes utilizar técnicas como el resumen, el
+          esquema o la elaboración de tarjetas de estudio para revisar y repasar los conceptos clave.</dd>
+        <br>
+        <dt>8. Revisión y repaso</dt>
+        <dd>Programa sesiones regulares de revisión y repaso para reforzar el material estudiado. Al dedicar tiempo a
+          repasar regularmente, fortalecerás tu retención y comprensión a largo plazo.</dd>
+        <br>
+        <dt>9. Autocuidado</dt>
+        <dd>No descuides tu bienestar físico y mental. Duerme lo suficiente, mantén una alimentación balanceada, haz
+          ejercicio y reserva tiempo para actividades de relajación y recreación.</dd>
+        <br>
+        <dt>10. Evaluación y ajuste</dt>
+        <dd>Evalúa periódicamente tu método de estudio y realiza ajustes según tus necesidades y resultados. Identifica
+          qué técnicas te funcionan mejor y realiza los cambios necesarios para mejorar tu eficacia y eficiencia.</dd>
+      </dl>
+      <br>
+      <div class="zoomer">
+        <div class="container">
+          <img id="zoomImage" src="assets/img/diseño.png" alt="Imagen">
+        </div>
+
+        <button class="button zoom-in" onclick="zoomIn()">+</button>
+        <button class="button zoom-out" onclick="zoomOut()">-</button>
+      </div>
+    </section>
+
+    <section id="resultados" class="resultados">
+      <h2 class="title_h2">Resultados de las Personas que usan Técnias de Estudio</h2>
+      <div class="canvas_chart">
+        <canvas id="myChart"></canvas>
+      </div>
+
+      <h2 class="title_h2">Beneficios de utilizar técnicas de Estudio</h2>
+      <div class="canvas_chart">
+        <canvas id="myChart2"></canvas>
+      </div>
+
+      <h2 class="title_h2">Eficiencia durante cierto tiempo</h2>
+      <div class="canvas_chart">
+        <canvas id="myChart4"></canvas>
+      </div>
+    </section>
+
+    <section id="beneficios" class="beneficios">
+      <h2 class="title_h2">Beneficios del Método y ¿Porque usar el método?</h2>
+      <p>
+        El método TOA esta enfocado en estudiantes de secundaria y universitarios, es una herramienta para mejorar la
+        organización y la autodisciplina en tu vida diaria, tanto en las tareas como en el trabajo. Además que el método
+        tratara de adaptarse a tu tiempo. Este método que fue construido utilizando otros métodos que contienen buenos
+        antecedentes ya que se investigo y selecciono los aspectos que cumplan y que se adapten a la vida de un
+        estudiante... te ayudaran a ser efectivo en todas tus tareas.
+      </p>
+      <p>
+        Además, el uso de las técnicas de organización y autodisciplina te ayudará a ser más productivo, a reducir el
+        estrés y a a mejorar tu calidad de vida en general. <span class="dale">DALE CLICK AL VIDEO YA!!!</span>
+      </p>
+
+      <div class="beneficios_metodo">
+        <video controls src="assets/video/tecnica.mp4"></video>
+      </div>
+    </section>
+
+    <section id="conclusion" class="conclusion">
+      <h2 class="title_h2">Conclusion</h2>
+      <p>
+        El método TOA (Técnicas de Organización y Autodisciplina) es una estrategia integral diseñada para ayudar a los
+        estudiantes a mejorar su rendimiento académico y su bienestar en general. Al implementar este enfoque, los
+        estudiantes pueden desarrollar habilidades efectivas de estudio que les servirán a lo largo de su vida académica
+        y más allá. El método TOA se basa en la planificación adecuada, la autodisciplina y el uso de técnicas
+        específicas para optimizar el tiempo de estudio y maximizar los resultados obtenidos.</p>
+
+
+      <p>Al organizar su tiempo de estudio, establecer metas claras y utilizar una agenda o calendario, los estudiantes
+        pueden priorizar sus actividades y asignaturas, lo que les ayuda a mantener el enfoque y la concentración. El
+        uso de la técnica Pomodoro, junto con la eliminación de distracciones, aumenta la productividad durante las
+        sesiones de estudio. Además, la toma de notas efectiva, la programación regular de sesiones de revisión y
+        repaso, y el autocuidado físico y mental son componentes importantes del método TOA que contribuyen a una
+        retención y comprensión a largo plazo.</p>
+
+      <p>El método TOA proporciona a los estudiantes las herramientas necesarias para desarrollar habilidades de estudio
+        efectivas y fomentar la autodisciplina. Al seguir este enfoque, los estudiantes pueden mejorar su rendimiento
+        académico, optimizar su tiempo de estudio y promover su bienestar integral. La implementación constante del
+        método
+        TOA, junto con la evaluación y ajuste periódicos, les permite a los estudiantes adaptar su enfoque de estudio
+        según sus necesidades individuales y alcanzar un mayor éxito académico.
+      </p>
+    </section>
+
+    <section id="recursos" class="recursos">
+      <h2 class="title_h2">Recursos</h2>
+
+      <div class="opcion_recursos">
+        <div class="dropdown">
+          <button class="dropbtn">Documentos</button>
+          <div class="dropdown-content">
+            <a href="#">Documento 1</a>
+            <a href="#">Documento 2</a>
+            <a href="#">Documento 3</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Enlaces</button>
+          <div class="dropdown-content">
+            <a href="#">Enlace 1</a>
+            <a href="#">Enlace 2</a>
+            <a href="#">Enlace 3</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Videos</button>
+          <div class="dropdown-content">
+            <a href="#">Video 1</a>
+            <a href="#">Video 2</a>
+            <a href="#">Video 3</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Estadísticas</button>
+          <div class="dropdown-content">
+            <a href="#">Estadística 1</a>
+            <a href="#">Estadística 2</a>
+            <a href="#">Estadística 3</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="formulario">
+      <h2 class="title_h2">Likes: <span id="likeCount">101</span></h2>
+      <button id="likeButton" onclick="incrementLikes()">Like</button>
+    </section>
+
+    <!-- Boton de subida -->
+    <div class="boton__retorno">
+      <a href="#header"><img src="assets/icons/up.png" alt=""></a>
+    </div>
+  </main>
+
+  <footer>
+    <p>Derechos de autor grupo3UniversidadRegional© 2023. Libre distribución.</p>
+    <p>Contacto: jefersonherrerae723@gmail.com</p>
+  </footer>
+
+  <script src="/main.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
